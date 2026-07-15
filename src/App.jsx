@@ -4,13 +4,14 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import AddVol from './components/AddVol'
+import ViewVol from './components/ViewVol'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     
+   
     </>
   )
 }
