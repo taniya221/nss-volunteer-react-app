@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NaviBar from './NaviBar'
 
 const ViewVol = () => {
 
@@ -22,6 +23,7 @@ const ViewVol = () => {
 
 
         <div className="container">
+            <NaviBar />
 
             <div className="row">
                 <div className="col-12">

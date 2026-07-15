@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import NaviBar from './NaviBar'
 
 const AddVol = () => {
     const [input, changeInput] = useState(
@@ -49,7 +50,7 @@ const AddVol = () => {
 }
   return (
    <div>
-            
+            <NaviBar />
             <div className="container">
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
