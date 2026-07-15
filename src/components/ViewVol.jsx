@@ -6,7 +6,7 @@ const ViewVol = () => {
     const [data, changeData] = useState([])
 
     const fetchData = () => {
-        axios.get0("http://localhost:4000/view-vol").then(
+        axios.get("http://localhost:4000/view-vol").then(
             (response) => {
                 changeData(response.data)
             }
